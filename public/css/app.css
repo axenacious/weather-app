@@ -1,0 +1,38 @@
+#contain {
+   overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    margin-right: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#bodyForecast {
+    width: 1000px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.weatherImage{
+    width: 100px;
+    padding: 5px;
+}
+#bodyExtra {
+    width: 1000px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+#extra {
+    width: 450px;
+    float:left; /* add this */
+    margin-right: 15px;
+    overflow: hidden;
+}
+#iframeMap {
+    width: 400px;
+    height:600px;
+}
